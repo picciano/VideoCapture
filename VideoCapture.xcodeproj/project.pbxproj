@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45BA018185FA08C0025B775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BA017185FA08C0025B775 /* Foundation.framework */; };
+		E45BA01A185FA08C0025B775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BA019185FA08C0025B775 /* CoreGraphics.framework */; };
+		E45BA01C185FA08C0025B775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BA01B185FA08C0025B775 /* UIKit.framework */; };
+		E45BA022185FA08C0025B775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45BA020185FA08C0025B775 /* InfoPlist.strings */; };
+		E45BA024185FA08C0025B775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45BA023185FA08C0025B775 /* main.m */; };
+		E45BA028185FA08C0025B775 /* VCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45BA027185FA08C0025B775 /* VCAppDelegate.m */; };
+		E45BA02A185FA08C0025B775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45BA029185FA08C0025B775 /* Images.xcassets */; };
+		E45BA031185FA08C0025B775 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BA030185FA08C0025B775 /* XCTest.framework */; };
+		E45BA032185FA08C0025B775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BA017185FA08C0025B775 /* Foundation.framework */; };
+		E45BA033185FA08C0025B775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BA01B185FA08C0025B775 /* UIKit.framework */; };
+		E45BA03B185FA08C0025B775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45BA039185FA08C0025B775 /* InfoPlist.strings */; };
+		E45BA03D185FA08C0025B775 /* VideoCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45BA03C185FA08C0025B775 /* VideoCaptureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45BA034185FA08C0025B775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45BA00C185FA08C0025B775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45BA013185FA08C0025B775;
+			remoteInfo = VideoCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45BA014185FA08C0025B775 /* VideoCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45BA017185FA08C0025B775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E45BA019185FA08C0025B775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E45BA01B185FA08C0025B775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E45BA01F185FA08C0025B775 /* VideoCapture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoCapture-Info.plist"; sourceTree = "<group>"; };
+		E45BA021185FA08C0025B775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E45BA023185FA08C0025B775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45BA025185FA08C0025B775 /* VideoCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoCapture-Prefix.pch"; sourceTree = "<group>"; };
+		E45BA026185FA08C0025B775 /* VCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAppDelegate.h; sourceTree = "<group>"; };
+		E45BA027185FA08C0025B775 /* VCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAppDelegate.m; sourceTree = "<group>"; };
+		E45BA029185FA08C0025B775 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E45BA02F185FA08C0025B775 /* VideoCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45BA030185FA08C0025B775 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E45BA038185FA08C0025B775 /* VideoCaptureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoCaptureTests-Info.plist"; sourceTree = "<group>"; };
+		E45BA03A185FA08C0025B775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E45BA03C185FA08C0025B775 /* VideoCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45BA011185FA08C0025B775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA01A185FA08C0025B775 /* CoreGraphics.framework in Frameworks */,
+				E45BA01C185FA08C0025B775 /* UIKit.framework in Frameworks */,
+				E45BA018185FA08C0025B775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45BA02C185FA08C0025B775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA031185FA08C0025B775 /* XCTest.framework in Frameworks */,
+				E45BA033185FA08C0025B775 /* UIKit.framework in Frameworks */,
+				E45BA032185FA08C0025B775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45BA00B185FA08C0025B775 = {
+			isa = PBXGroup;
+			children = (
+				E45BA01D185FA08C0025B775 /* VideoCapture */,
+				E45BA036185FA08C0025B775 /* VideoCaptureTests */,
+				E45BA016185FA08C0025B775 /* Frameworks */,
+				E45BA015185FA08C0025B775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45BA015185FA08C0025B775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45BA014185FA08C0025B775 /* VideoCapture.app */,
+				E45BA02F185FA08C0025B775 /* VideoCaptureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45BA016185FA08C0025B775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45BA017185FA08C0025B775 /* Foundation.framework */,
+				E45BA019185FA08C0025B775 /* CoreGraphics.framework */,
+				E45BA01B185FA08C0025B775 /* UIKit.framework */,
+				E45BA030185FA08C0025B775 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45BA01D185FA08C0025B775 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				E45BA026185FA08C0025B775 /* VCAppDelegate.h */,
+				E45BA027185FA08C0025B775 /* VCAppDelegate.m */,
+				E45BA029185FA08C0025B775 /* Images.xcassets */,
+				E45BA01E185FA08C0025B775 /* Supporting Files */,
+			);
+			path = VideoCapture;
+			sourceTree = "<group>";
+		};
+		E45BA01E185FA08C0025B775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45BA01F185FA08C0025B775 /* VideoCapture-Info.plist */,
+				E45BA020185FA08C0025B775 /* InfoPlist.strings */,
+				E45BA023185FA08C0025B775 /* main.m */,
+				E45BA025185FA08C0025B775 /* VideoCapture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45BA036185FA08C0025B775 /* VideoCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45BA03C185FA08C0025B775 /* VideoCaptureTests.m */,
+				E45BA037185FA08C0025B775 /* Supporting Files */,
+			);
+			path = VideoCaptureTests;
+			sourceTree = "<group>";
+		};
+		E45BA037185FA08C0025B775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45BA038185FA08C0025B775 /* VideoCaptureTests-Info.plist */,
+				E45BA039185FA08C0025B775 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45BA013185FA08C0025B775 /* VideoCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45BA040185FA08C0025B775 /* Build configuration list for PBXNativeTarget "VideoCapture" */;
+			buildPhases = (
+				E45BA010185FA08C0025B775 /* Sources */,
+				E45BA011185FA08C0025B775 /* Frameworks */,
+				E45BA012185FA08C0025B775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoCapture;
+			productName = VideoCapture;
+			productReference = E45BA014185FA08C0025B775 /* VideoCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45BA02E185FA08C0025B775 /* VideoCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45BA043185FA08C0025B775 /* Build configuration list for PBXNativeTarget "VideoCaptureTests" */;
+			buildPhases = (
+				E45BA02B185FA08C0025B775 /* Sources */,
+				E45BA02C185FA08C0025B775 /* Frameworks */,
+				E45BA02D185FA08C0025B775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45BA035185FA08C0025B775 /* PBXTargetDependency */,
+			);
+			name = VideoCaptureTests;
+			productName = VideoCaptureTests;
+			productReference = E45BA02F185FA08C0025B775 /* VideoCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45BA00C185FA08C0025B775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Anthony Picciano";
+				TargetAttributes = {
+					E45BA02E185FA08C0025B775 = {
+						TestTargetID = E45BA013185FA08C0025B775;
+					};
+				};
+			};
+			buildConfigurationList = E45BA00F185FA08C0025B775 /* Build configuration list for PBXProject "VideoCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E45BA00B185FA08C0025B775;
+			productRefGroup = E45BA015185FA08C0025B775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45BA013185FA08C0025B775 /* VideoCapture */,
+				E45BA02E185FA08C0025B775 /* VideoCaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45BA012185FA08C0025B775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA022185FA08C0025B775 /* InfoPlist.strings in Resources */,
+				E45BA02A185FA08C0025B775 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45BA02D185FA08C0025B775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA03B185FA08C0025B775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45BA010185FA08C0025B775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA024185FA08C0025B775 /* main.m in Sources */,
+				E45BA028185FA08C0025B775 /* VCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45BA02B185FA08C0025B775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA03D185FA08C0025B775 /* VideoCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45BA035185FA08C0025B775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45BA013185FA08C0025B775 /* VideoCapture */;
+			targetProxy = E45BA034185FA08C0025B775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45BA020185FA08C0025B775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45BA021185FA08C0025B775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E45BA039185FA08C0025B775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45BA03A185FA08C0025B775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45BA03E185FA08C0025B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45BA03F185FA08C0025B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45BA041185FA08C0025B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCapture/VideoCapture-Prefix.pch";
+				INFOPLIST_FILE = "VideoCapture/VideoCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E45BA042185FA08C0025B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCapture/VideoCapture-Prefix.pch";
+				INFOPLIST_FILE = "VideoCapture/VideoCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E45BA044185FA08C0025B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoCapture.app/VideoCapture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCapture/VideoCapture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VideoCaptureTests/VideoCaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E45BA045185FA08C0025B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoCapture.app/VideoCapture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCapture/VideoCapture-Prefix.pch";
+				INFOPLIST_FILE = "VideoCaptureTests/VideoCaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45BA00F185FA08C0025B775 /* Build configuration list for PBXProject "VideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45BA03E185FA08C0025B775 /* Debug */,
+				E45BA03F185FA08C0025B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45BA040185FA08C0025B775 /* Build configuration list for PBXNativeTarget "VideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45BA041185FA08C0025B775 /* Debug */,
+				E45BA042185FA08C0025B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45BA043185FA08C0025B775 /* Build configuration list for PBXNativeTarget "VideoCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45BA044185FA08C0025B775 /* Debug */,
+				E45BA045185FA08C0025B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45BA00C185FA08C0025B775 /* Project object */;
+}
